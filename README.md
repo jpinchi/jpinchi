@@ -124,7 +124,7 @@ Descubre por **SNMP** todas las impresoras de tu red y muestra en un panel **en 
 <td width="50%" valign="top">
 
 <a href="https://github.com/jpinchi/pliego">
-  <img src="assets/pliego.png" alt="Pliego con un PDF anotado, resaltado y firmado" width="100%" />
+  <img src="https://raw.githubusercontent.com/jpinchi/pliego/main/docs/screenshots/main-dark.png" alt="Pliego con un PDF anotado, resaltado y firmado" width="100%" />
 </a>
 
 ### <img src="https://raw.githubusercontent.com/jpinchi/pliego/main/build/icon.png" width="24" alt="" /> Pliego

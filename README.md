@@ -1,7 +1,7 @@
 <!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F5AF0,50:E040FB,100:FF8A00&height=230&section=header&text=Hola,%20soy%20Josue&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Apps%20de%20escritorio%20%C2%B7%20Paneles%20en%20tiempo%20real%20%C2%B7%20IA&descAlignY=60&descSize=20" width="100%" alt="Hola, soy Josue" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F5AF0,50:E040FB,100:FF8A00&height=230&section=header&text=Hola,%20soy%20Josue%20Mejias&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Apps%20de%20escritorio%20%C2%B7%20Paneles%20en%20tiempo%20real%20%C2%B7%20IA&descAlignY=60&descSize=20" width="100%" alt="Hola, soy Josue Mejias" />
 
 <a href="https://github.com/jpinchi">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=900&color=E040FB&center=true&vCenter=true&width=620&lines=Software+Developer;Apps+de+escritorio+para+Windows;Dashboards+web+en+tiempo+real;Apps+iOS+potenciadas+con+Claude+AI;Software+100%25+offline+y+privado" alt="Typing SVG" />

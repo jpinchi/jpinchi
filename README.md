@@ -221,6 +221,12 @@ App **iOS** para prepararse para una carrera en el **FBI**: cada día genera una
 
 <br/><br/>
 
+<img alt="Space Shooter: una nave destruye mis contribuciones" src="https://raw.githubusercontent.com/jpinchi/jpinchi/output/space-shooter.webp" />
+
+<sub><b>Space Shooter</b> — una nave dispara y destruye mis contribuciones</sub>
+
+<br/><br/>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/output/github-snake.svg" />

@@ -36,6 +36,20 @@ jobs:
       - name: Juntar el calendario 3D con las demás
         run: cp profile-3d-contrib/profile-3d-*.svg dist/
 
+      # Se instala el paquete directamente (versión fija) en vez de usar su
+      # acción: la acción instala la última versión sin fijar y hace commits
+      # (incluso --amend + force push) en main.
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Space Shooter
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          pip install gh-space-shooter==2.0.5
+          gh-space-shooter ${{ github.repository_owner }} --output dist/space-shooter.webp
+
       - name: Serpiente
         uses: Platane/snk@v3
         with:

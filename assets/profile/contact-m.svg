@@ -50,7 +50,7 @@
     </g>
     <g class="badge"><circle cx="560" cy="370" r="18" fill="#22c55e" stroke="#0d0b1e" stroke-width="3"/>
       <path d="M552 370 l6 6 l11 -12" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></g>
-    <text class="txt" x="300" y="494" font-size="21" text-anchor="middle" fill="#7c76a8">Toca la tarjeta para escribirme</text>
+    <text class="txt" x="300" y="494" font-size="21" text-anchor="middle" fill="#7c76a8">Te respondo con gusto</text>
   </g>
   <rect x=".5" y=".5" width="599" height="519" rx="25.5" fill="none" stroke="url(#g)" stroke-opacity=".5"/>
 </svg>

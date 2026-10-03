@@ -219,10 +219,16 @@ Todos mis proyectos públicos están en mis repositorios.
   <img src="assets/profile/h-hablemos.svg" alt="06 · Hablemos" width="100%" />
 </picture>
 
-<a href="mailto:josueldinhoo@gmail.com"><picture>
+<picture>
   <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/main/assets/profile/contact-m.svg" />
   <img src="assets/profile/contact.svg" alt="¿Tienes una idea, un proyecto o encontraste un bug? Escríbeme a josueldinhoo@gmail.com" width="100%" />
-</picture></a>
+</picture>
+
+<div align="center">
+
+<a href="mailto:josueldinhoo@gmail.com"><img src="https://img.shields.io/badge/Enviar_un_correo-E040FB?style=for-the-badge&logo=gmail&logoColor=white" alt="Enviar un correo a josueldinhoo@gmail.com" /></a>
+
+</div>
 
 <!-- ═══════════════════════════ PIE ═══════════════════════════ -->
 <picture>

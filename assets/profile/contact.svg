@@ -36,7 +36,7 @@
 
     <text class="display" x="60" y="84" font-size="36" fill="#eeeaff" letter-spacing="-.5">¿Tienes una idea, un proyecto</text>
     <text class="display" x="60" y="128" font-size="36" fill="#eeeaff" letter-spacing="-.5">o encontraste un bug?</text>
-    <text class="txt" x="61" y="168" font-size="19" fill="#a59fc9">Escríbeme y te respondo. Haz clic en la tarjeta.</text>
+    <text class="txt" x="61" y="168" font-size="19" fill="#a59fc9">Escríbeme y te respondo con gusto.</text>
     <text class="mono" x="61" y="212" font-size="21" fill="url(#gl)">josueldinhoo@gmail.com</text>
     <path class="under" pathLength="1" d="M61 224 H 341" stroke="url(#gu)" stroke-width="2.5" stroke-linecap="round"/>
 

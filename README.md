@@ -105,7 +105,8 @@ const josue = {
 <td width="50%" valign="top">
 
 <a href="https://github.com/jpinchi/printer-device-manager">
-  <img src="https://raw.githubusercontent.com/jpinchi/printer-device-manager/main/docs/screenshots/dashboard-dark.png" alt="Printer Device Manager" width="100%" />
+  <img src="https://raw.githubusercontent.com/jpinchi/printer-device-manager/main/docs/banner.svg" alt="Printer Device Manager" width="100%" />
+  <img src="https://raw.githubusercontent.com/jpinchi/printer-device-manager/main/docs/screenshots/dashboard-dark.png" alt="Vista previa: panel de Printer Device Manager" width="100%" />
 </a>
 
 ### 🖨️ Printer Device Manager
@@ -124,7 +125,8 @@ Descubre por **SNMP** todas las impresoras de tu red y muestra en un panel **en 
 <td width="50%" valign="top">
 
 <a href="https://github.com/jpinchi/pliego">
-  <img src="https://raw.githubusercontent.com/jpinchi/pliego/main/docs/screenshots/main-dark.png" alt="Pliego con un PDF anotado, resaltado y firmado" width="100%" />
+  <img src="https://raw.githubusercontent.com/jpinchi/pliego/main/docs/banner.svg" alt="Pliego" width="100%" />
+  <img src="https://raw.githubusercontent.com/jpinchi/pliego/main/docs/screenshots/main-dark.png" alt="Vista previa: Pliego con un PDF anotado, resaltado y firmado" width="100%" />
 </a>
 
 ### <img src="https://raw.githubusercontent.com/jpinchi/pliego/main/build/icon.png" width="24" alt="" /> Pliego
@@ -145,7 +147,8 @@ Un **editor de PDF** de escritorio para Windows: anota, firma, rellena formulari
 <td width="50%" valign="top">
 
 <a href="https://github.com/jpinchi/noty-releases">
-  <img src="https://raw.githubusercontent.com/jpinchi/noty-releases/main/screenshots/principal-oscuro.png" alt="Noty" width="100%" />
+  <img src="https://raw.githubusercontent.com/jpinchi/noty-releases/main/screenshots/banner.svg" alt="Noty" width="100%" />
+  <img src="https://raw.githubusercontent.com/jpinchi/noty-releases/main/screenshots/principal-oscuro.png" alt="Vista previa: Noty en tema oscuro" width="100%" />
 </a>
 
 ### <img src="https://raw.githubusercontent.com/jpinchi/noty-releases/main/screenshots/logo.png" width="24" alt="" /> Noty

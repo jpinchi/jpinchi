@@ -24,7 +24,7 @@
 <tr>
 <td width="55%" valign="top">
 
-Construyo **software que la gente usa a diario**: apps de escritorio para Windows, paneles web que se actualizan en vivo y apps móviles con inteligencia artificial.
+Construyo **software que la gente usa a diario**: apps de escritorio para Windows, paneles web que se actualizan en vivo y una app móvil con inteligencia artificial.
 
 Me gusta que las cosas sean **rápidas, bonitas y privadas**, así que muchos de mis proyectos funcionan **100% offline**: sin cuentas, sin servidores y sin suscripciones.
 
@@ -63,7 +63,7 @@ const josue = {
 <div align="center">
 
 <img src="https://img.shields.io/badge/apps_publicadas-4-7F5AF0?style=for-the-badge&labelColor=0D1117" alt="4 apps publicadas" />
-<img src="https://img.shields.io/badge/tests-130_passing-22C55E?style=for-the-badge&labelColor=0D1117" alt="130 tests" />
+<img src="https://img.shields.io/badge/tests-140_passing-22C55E?style=for-the-badge&labelColor=0D1117" alt="140 tests" />
 <img src="https://img.shields.io/github/v/release/jpinchi/noty-releases?label=Noty&style=for-the-badge&color=E040FB&labelColor=0D1117" alt="Última versión de Noty" />
 <img src="https://img.shields.io/github/downloads/jpinchi/noty-releases/total?label=descargas&style=for-the-badge&color=FF8A00&labelColor=0D1117" alt="Descargas de Noty" />
 

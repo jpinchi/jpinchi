@@ -183,4 +183,66 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
 `;
 fs.mkdirSync(path.dirname(OUT), { recursive: true });
 fs.writeFileSync(OUT, svg);
+
+// ---------- Versión para celular (600 de ancho; en pantalla queda a ~51 %) ----------
+const MW = 600;
+const mKpis = kpis.map(([label, value, sub], i) => {
+  const x = 24 + (i % 2) * 288, y = 24 + Math.floor(i / 2) * 166;
+  return `<g class="up" style="animation-delay:${0.1 + i * 0.12}s">
+    <rect x="${x}" y="${y}" width="264" height="150" rx="20" fill="#151230" stroke="#2a2550"/>
+    <text class="txt" x="${x + 22}" y="${y + 38}" font-size="22" fill="#a59fc9">${label}</text>
+    <text class="display" x="${x + 20}" y="${y + 104}" font-size="62" fill="${i === 0 ? "url(#g)" : "#eeeaff"}" letter-spacing="-1">${value}</text>
+    <text class="txt" x="${x + 22}" y="${y + 133}" font-size="18" fill="#7c76a8">${sub.replace("con al menos una contribución", "con contribuciones")}</text></g>`;
+}).join("");
+const mbTop = 404, mbH = 130, mbx = 24, mbw = 552, mgap = 3;
+const mBarW = (mbw - mgap * (weekly.length - 1)) / weekly.length;
+const mBars = weekly.map((v, i) => {
+  const h = v ? Math.max(5, (v / maxW) * mbH) : 3;
+  return `<rect class="bar" style="animation-delay:${(0.4 + i * 0.012).toFixed(3)}s" x="${(mbx + i * (mBarW + mgap)).toFixed(1)}" y="${(mbTop + mbH - h).toFixed(1)}" width="${mBarW.toFixed(1)}" height="${h.toFixed(1)}" rx="2" fill="${v ? "url(#gv)" : "#221d44"}"/>`;
+}).join("");
+let mlx = 24;
+const mLangBar = segs.map((l, i) => {
+  const w = (l.pct / 100) * 552;
+  const s = `<rect class="seg" style="animation-delay:${(0.9 + i * 0.1).toFixed(2)}s" x="${mlx.toFixed(1)}" y="602" width="${Math.max(w - 2, 1).toFixed(1)}" height="16" rx="4" fill="${l.color}"/>`;
+  mlx += w;
+  return s;
+}).join("");
+const mLegend = segs.map((l, i) => {
+  const x = 24 + (i % 2) * 288, y = 662 + Math.floor(i / 2) * 36;
+  return `<circle cx="${x + 7}" cy="${y - 7}" r="7" fill="${l.color}"/><text class="txt" x="${x + 24}" y="${y}" font-size="21" fill="#c9c4ea">${esc(l.name)} <tspan fill="#7c76a8">${l.pct.toFixed(1)}%</tspan></text>`;
+}).join("");
+const legendRows = Math.ceil(segs.length / 2);
+const fTop = 662 + legendRows * 36 + 10;
+const mFacts = facts.map(([k, v], i) => {
+  const y = fTop + 84 + i * 50;
+  return `<g class="up" style="animation-delay:${(0.6 + i * 0.08).toFixed(2)}s"><text class="txt" x="48" y="${y}" font-size="22" fill="#a59fc9">${k}</text>
+    <text class="mono" x="552" y="${y}" font-size="24" text-anchor="end" fill="#eeeaff">${esc(v)}</text>
+    <path d="M48 ${y + 18} H552" stroke="#221d44"/></g>`;
+}).join("");
+const MH = fTop + 84 + facts.length * 50 + 24;
+const svgM = svg
+  .replace(`viewBox="0 0 ${W} ${H}" width="${W}" height="${H}"`, `viewBox="0 0 ${MW} ${MH}" width="${MW}" height="${MH}"`)
+  .replace(/<clipPath id="frame">.*?<\/clipPath>/, `<clipPath id="frame"><rect width="${MW}" height="${MH}" rx="26"/></clipPath>`)
+  .replace(/cx="1100" cy="0" r="520"/, `cx="${MW}" cy="0" r="460"`)
+  .replace(/<g clip-path="url\(#frame\)">[\s\S]*<\/svg>\s*$/, `<g clip-path="url(#frame)">
+    <rect width="${MW}" height="${MH}" fill="#0d0b1e"/>
+    <rect width="${MW}" height="${MH}" fill="url(#glow)"/>
+    ${mKpis}
+    <text class="txt" x="24" y="384" font-size="22" fill="#a59fc9">Actividad semanal · último año</text>
+    ${mBars}
+    <path d="M24 ${mbTop + mbH + 1} H576" stroke="#2a2550"/>
+    <text class="txt" x="24" y="584" font-size="22" fill="#a59fc9">Lenguajes de mis repos públicos</text>
+    ${mLangBar}
+    ${mLegend}
+    <rect x="24" y="${fTop}" width="552" height="${MH - fTop - 24}" rx="20" fill="#110f27" stroke="#2a2550"/>
+    <text class="txt" x="48" y="${fTop + 42}" font-size="18" fill="#7c76a8" letter-spacing="2.5">DESTACADOS</text>
+    <text class="txt" x="552" y="${fTop + 42}" font-size="17" text-anchor="end" fill="#4a4478">Actualizado ${esc(updated)}</text>
+    ${mFacts}
+  </g>
+  <rect x=".5" y=".5" width="${MW - 1}" height="${MH - 1}" rx="25.5" fill="none" stroke="#2a2550"/>
+</svg>
+`);
+const OUT_M = OUT.replace(/\.svg$/, "-mobile.svg");
+fs.writeFileSync(OUT_M, svgM);
+console.log(`${path.basename(OUT_M)}: ${MW}×${MH}`);
 console.log(`stats.svg: ${cal.totalContributions} contribuciones, racha ${current}/${longest}, ${active} días activos, ${segs.length} lenguajes, Noty ${noty.tag} ${noty.downloads}`);

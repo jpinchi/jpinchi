@@ -1,7 +1,10 @@
 <!-- ═══════════════════════════ HÉROE ═══════════════════════════ -->
 <div align="center">
 
-<img src="assets/profile/hero.svg" alt="Hola, soy Josue Mejias. Construyo apps de escritorio para Windows, dashboards en tiempo real, apps con inteligencia artificial y software 100% offline." width="100%" />
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/main/assets/profile/hero-m.svg" />
+  <img src="assets/profile/hero.svg" alt="Hola, soy Josue Mejias. Construyo apps de escritorio para Windows, dashboards en tiempo real, apps con inteligencia artificial y software 100% offline." width="100%" />
+</picture>
 
 <a href="https://github.com/jpinchi?tab=repositories"><img src="https://img.shields.io/badge/Mis_proyectos-7F5AF0?style=for-the-badge&logo=github&logoColor=white" alt="Mis proyectos" /></a>
 <a href="mailto:josueldinhoo@gmail.com"><img src="https://img.shields.io/badge/Escr%C3%ADbeme-E040FB?style=for-the-badge&logo=gmail&logoColor=white" alt="Escríbeme" /></a>
@@ -9,11 +12,10 @@
 </div>
 
 <!-- ═══════════════════════════ 01 · SOBRE MÍ ═══════════════════════════ -->
-<img src="assets/profile/h-sobre-mi.svg" alt="01 · Sobre mí" width="100%" />
-
-<table>
-<tr>
-<td width="50%" valign="top">
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/main/assets/profile/h-sobre-mi-m.svg" />
+  <img src="assets/profile/h-sobre-mi.svg" alt="01 · Sobre mí" width="100%" />
+</picture>
 
 Construyo **software que la gente usa a diario**: apps de escritorio para Windows, paneles web que se actualizan en vivo y apps con inteligencia artificial.
 
@@ -26,22 +28,31 @@ Me gusta que las cosas sean **rápidas, bonitas y privadas**, así que muchos de
 - 🕵️ Creé **Agent File**, una app iOS con casos generados por **Claude AI**
 - 🌎 Mis apps hablan **español e inglés**
 
-</td>
-<td width="50%" valign="top">
+<div align="center">
 
-<img src="assets/profile/about-code.svg" alt="const josue = { rol: Software Developer; construye: apps de escritorio con Electron, dashboards en tiempo real y apps con IA; stack: TypeScript, Node.js y React; idiomas: español e inglés; filosofía: rápido, bonito y offline }" width="100%" />
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/main/assets/profile/about-code-m.svg" />
+  <img src="assets/profile/about-code.svg" alt="const josue = { rol: Software Developer; construye: apps de escritorio con Electron, dashboards en tiempo real y apps con IA; stack: TypeScript, Node.js y React; idiomas: español e inglés; filosofía: rápido, bonito y offline }" width="680" />
+</picture>
 
-</td>
-</tr>
-</table>
+</div>
 
 <!-- ═══════════════════════════ 02 · TECNOLOGÍAS ═══════════════════════════ -->
-<img src="assets/profile/h-tecnologias.svg" alt="02 · Tecnologías" width="100%" />
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/main/assets/profile/h-tecnologias-m.svg" />
+  <img src="assets/profile/h-tecnologias.svg" alt="02 · Tecnologías" width="100%" />
+</picture>
 
-<img src="assets/profile/tech.svg" alt="Tecnologías: TypeScript, JavaScript, HTML5, CSS, React, Next.js, Tailwind CSS, Node.js, Express, Prisma, SQLite, Electron, Claude, Supabase, Vercel, PWA, iOS, Vitest, Git, GitHub, Windows y SNMP" width="100%" />
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/main/assets/profile/tech-m.svg" />
+  <img src="assets/profile/tech.svg" alt="Tecnologías: TypeScript, JavaScript, HTML5, CSS, React, Next.js, Tailwind CSS, Node.js, Express, Prisma, SQLite, Electron, Claude, Supabase, Vercel, PWA, iOS, Vitest, Git, GitHub, Windows y SNMP" width="100%" />
+</picture>
 
 <!-- ═══════════════════════════ 03 · PROYECTOS ═══════════════════════════ -->
-<img src="assets/profile/h-proyectos.svg" alt="03 · Proyectos destacados" width="100%" />
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/main/assets/profile/h-proyectos-m.svg" />
+  <img src="assets/profile/h-proyectos.svg" alt="03 · Proyectos destacados" width="100%" />
+</picture>
 
 <table>
 <tr>
@@ -160,12 +171,21 @@ Todos mis proyectos públicos están en mis repositorios.
 </table>
 
 <!-- ═══════════════════════════ 04 · ESTADÍSTICAS ═══════════════════════════ -->
-<img src="assets/profile/h-estadisticas.svg" alt="04 · Estadísticas" width="100%" />
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/main/assets/profile/h-estadisticas-m.svg" />
+  <img src="assets/profile/h-estadisticas.svg" alt="04 · Estadísticas" width="100%" />
+</picture>
 
-<img src="https://raw.githubusercontent.com/jpinchi/jpinchi/output/stats.svg" alt="Mis estadísticas de GitHub: contribuciones del último año, rachas, actividad semanal, lenguajes y proyectos destacados" width="100%" />
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/output/stats-mobile.svg" />
+  <img src="https://raw.githubusercontent.com/jpinchi/jpinchi/output/stats.svg" alt="Mis estadísticas de GitHub: contribuciones del último año, rachas, actividad semanal, lenguajes y proyectos destacados" width="100%" />
+</picture>
 
 <!-- ═══════════════════════════ 05 · CONTRIBUCIONES ANIMADAS ═══════════════════════════ -->
-<img src="assets/profile/h-contribuciones.svg" alt="05 · Mis contribuciones, en movimiento" width="100%" />
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/main/assets/profile/h-contribuciones-m.svg" />
+  <img src="assets/profile/h-contribuciones.svg" alt="05 · Mis contribuciones, en movimiento" width="100%" />
+</picture>
 
 <div align="center">
 
@@ -194,9 +214,18 @@ Todos mis proyectos públicos están en mis repositorios.
 </div>
 
 <!-- ═══════════════════════════ 06 · HABLEMOS ═══════════════════════════ -->
-<img src="assets/profile/h-hablemos.svg" alt="06 · Hablemos" width="100%" />
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/main/assets/profile/h-hablemos-m.svg" />
+  <img src="assets/profile/h-hablemos.svg" alt="06 · Hablemos" width="100%" />
+</picture>
 
-<a href="mailto:josueldinhoo@gmail.com"><img src="assets/profile/contact.svg" alt="¿Tienes una idea, un proyecto o encontraste un bug? Escríbeme a josueldinhoo@gmail.com" width="100%" /></a>
+<a href="mailto:josueldinhoo@gmail.com"><picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/main/assets/profile/contact-m.svg" />
+  <img src="assets/profile/contact.svg" alt="¿Tienes una idea, un proyecto o encontraste un bug? Escríbeme a josueldinhoo@gmail.com" width="100%" />
+</picture></a>
 
 <!-- ═══════════════════════════ PIE ═══════════════════════════ -->
-<img src="assets/profile/footer.svg" alt="Gracias por pasar por aquí · Josue Mejias" width="100%" />
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/main/assets/profile/footer-m.svg" />
+  <img src="assets/profile/footer.svg" alt="Gracias por pasar por aquí · Josue Mejias" width="100%" />
+</picture>

@@ -231,12 +231,12 @@ App **iOS** para prepararse para una carrera en el **FBI**: cada día genera una
 <br/><br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/output/github-snake.svg" />
-  <img alt="Serpiente comiéndose mis contribuciones" src="https://raw.githubusercontent.com/jpinchi/jpinchi/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/output/bomberman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/output/bomberman-contribution-graph.svg" />
+  <img alt="Bomberman haciendo explotar mis contribuciones" src="https://raw.githubusercontent.com/jpinchi/jpinchi/output/bomberman-contribution-graph.svg" />
 </picture>
 
-<sub><b>Serpiente</b> — recorre el año y se come cada día que programé</sub>
+<sub><b>Bomberman</b> — pone bombas que hacen explotar mis contribuciones mientras lo persigue un enemigo</sub>
 
 </div>
 

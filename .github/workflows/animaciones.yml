@@ -18,13 +18,11 @@ jobs:
       # Solo para leer .github/profile-3d.json (los colores del calendario 3D)
       - uses: actions/checkout@v5
 
-      # La serpiente va AL FINAL: corre en Docker como root y, si crea dist/
-      # primero, los demás pasos no pueden escribir ahí ("permission denied").
-      - name: Pac-Man
+      - name: Pac-Man y Bomberman
         uses: abozanona/pacman-contribution-graph@v5.3.2
         with:
           github_user_name: ${{ github.repository_owner }}
-          games: pacman
+          games: pacman,bomberman
 
       - name: Calendario 3D
         uses: yoshi389111/github-profile-3d-contrib@v0.9.3
@@ -50,16 +48,8 @@ jobs:
           pip install gh-space-shooter==2.0.5
           gh-space-shooter ${{ github.repository_owner }} --output dist/space-shooter.webp
 
-      - name: Serpiente
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg?color_snake=#E040FB&color_dots=#ebedf0,#d8c4ff,#b388ff,#7F5AF0,#5b2bd6
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#FF8A00&color_dots=#161b22,#3b2a6b,#5b3fb0,#7F5AF0,#E040FB
-
       # Una sola publicación: esta acción REEMPLAZA toda la rama output, así que
-      # las tres animaciones tienen que subirse juntas.
+      # todas las animaciones tienen que subirse juntas.
       - name: Publicar en la rama output
         uses: crazy-max/ghaction-github-pages@v4
         with:

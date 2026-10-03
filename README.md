@@ -62,7 +62,7 @@ const josue = {
 <!-- ═══════════════════════════ NÚMEROS ═══════════════════════════ -->
 <div align="center">
 
-<img src="https://img.shields.io/badge/apps_publicadas-4-7F5AF0?style=for-the-badge&labelColor=0D1117" alt="4 apps publicadas" />
+<img src="https://img.shields.io/badge/apps_publicadas-5-7F5AF0?style=for-the-badge&labelColor=0D1117" alt="5 apps publicadas" />
 <img src="https://img.shields.io/badge/tests-140_passing-22C55E?style=for-the-badge&labelColor=0D1117" alt="140 tests" />
 <img src="https://img.shields.io/github/v/release/jpinchi/noty-releases?label=Noty&style=for-the-badge&color=E040FB&labelColor=0D1117" alt="Última versión de Noty" />
 <img src="https://img.shields.io/github/downloads/jpinchi/noty-releases/total?label=descargas&style=for-the-badge&color=FF8A00&labelColor=0D1117" alt="Descargas de Noty" />
@@ -180,6 +180,37 @@ App **iOS** para prepararse para una carrera en el **FBI**: cada día genera una
 <img src="https://img.shields.io/badge/Keychain-555555?style=flat-square&logo=apple&logoColor=white" alt="iOS Keychain" />
 
 <a href="https://github.com/jpinchi/agentfile-support"><img src="https://img.shields.io/badge/Soporte-2C5364?style=for-the-badge&logo=github&logoColor=white" alt="Página de soporte" /></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://english-tutor-gray.vercel.app">
+  <img src="https://raw.githubusercontent.com/jpinchi/jpinchi/main/assets/englishmind/banner.svg" alt="EnglishMind" width="100%" />
+  <img src="https://raw.githubusercontent.com/jpinchi/jpinchi/main/assets/englishmind/preview.png" alt="Vista previa: página de inicio de EnglishMind" width="100%" />
+</a>
+
+### <img src="https://raw.githubusercontent.com/jpinchi/jpinchi/main/assets/englishmind/icon.png" width="24" alt="" /> EnglishMind
+
+Tutor de inglés con IA para hispanohablantes, ya **en producción**: ejercicios generados por IA, reto mensual, lectura, chat con tutor, práctica de **pronunciación** y notificaciones para no perder tu **racha**. Es una PWA que se instala en el teléfono.
+
+<img src="https://img.shields.io/badge/PWA-instalable-D4AF37?style=flat-square&labelColor=0A0E1A" alt="PWA" />
+<img src="https://img.shields.io/badge/Vanilla_JS-F7DF1E?style=flat-square&logo=javascript&logoColor=0A0E1A" alt="Vanilla JS" />
+<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
+<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
+<img src="https://img.shields.io/badge/Claude_AI-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude AI" />
+
+<a href="https://english-tutor-gray.vercel.app"><img src="https://img.shields.io/badge/Abrir_la_app-D4AF37?style=for-the-badge&logo=googlechrome&logoColor=0A0E1A" alt="Abrir la app" /></a>
+
+</td>
+<td width="50%" align="center" valign="middle">
+
+### 🔭 ¿Quieres ver más?
+
+Todos mis proyectos públicos están en mis repositorios.
+
+<a href="https://github.com/jpinchi?tab=repositories"><img src="https://img.shields.io/badge/Proyectos-Ver_todos-E040FB?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Ver todos mis proyectos" /></a>
 
 </td>
 </tr>

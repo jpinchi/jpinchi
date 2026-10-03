@@ -1,104 +1,47 @@
-<!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
+<!-- ═══════════════════════════ HÉROE ═══════════════════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F5AF0,50:E040FB,100:FF8A00&height=230&section=header&text=Hola,%20soy%20Josue%20Mejias&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Apps%20de%20escritorio%20%C2%B7%20Paneles%20en%20tiempo%20real%20%C2%B7%20IA&descAlignY=60&descSize=20" width="100%" alt="Hola, soy Josue Mejias" />
+<img src="assets/profile/hero.svg" alt="Hola, soy Josue Mejias. Construyo apps de escritorio para Windows, dashboards en tiempo real, apps con inteligencia artificial y software 100% offline." width="100%" />
 
-<a href="https://github.com/jpinchi">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=900&color=E040FB&center=true&vCenter=true&width=620&lines=Software+Developer;Apps+de+escritorio+para+Windows;Dashboards+web+en+tiempo+real;Apps+iOS+potenciadas+con+Claude+AI;Software+100%25+offline+y+privado" alt="Typing SVG" />
-</a>
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=jpinchi&label=Visitas&style=for-the-badge&color=7F5AF0" alt="Visitas al perfil" />
-<a href="https://github.com/jpinchi?tab=repositories"><img src="https://img.shields.io/badge/Proyectos-Ver_todos-E040FB?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Ver proyectos" /></a>
-<a href="mailto:josueldinhoo@gmail.com"><img src="https://img.shields.io/badge/Escr%C3%ADbeme-FF8A00?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" /></a>
+<a href="https://github.com/jpinchi?tab=repositories"><img src="https://img.shields.io/badge/Mis_proyectos-7F5AF0?style=for-the-badge&logo=github&logoColor=white" alt="Mis proyectos" /></a>
+<a href="mailto:josueldinhoo@gmail.com"><img src="https://img.shields.io/badge/Escr%C3%ADbeme-E040FB?style=for-the-badge&logo=gmail&logoColor=white" alt="Escríbeme" /></a>
 
 </div>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="" />
-
-<!-- ═══════════════════════════ SOBRE MÍ ═══════════════════════════ -->
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" alt="👋" /> Sobre mí
+<!-- ═══════════════════════════ 01 · SOBRE MÍ ═══════════════════════════ -->
+<img src="assets/profile/h-sobre-mi.svg" alt="01 · Sobre mí" width="100%" />
 
 <table>
 <tr>
-<td width="55%" valign="top">
+<td width="50%" valign="top">
 
-Construyo **software que la gente usa a diario**: apps de escritorio para Windows, paneles web que se actualizan en vivo y una app móvil con inteligencia artificial.
+Construyo **software que la gente usa a diario**: apps de escritorio para Windows, paneles web que se actualizan en vivo y apps con inteligencia artificial.
 
 Me gusta que las cosas sean **rápidas, bonitas y privadas**, así que muchos de mis proyectos funcionan **100% offline**: sin cuentas, sin servidores y sin suscripciones.
 
 - 🖨️ Monitoreo **flotas de impresoras** por SNMP con un panel en tiempo real
 - 📄 Hice **Pliego**, un editor de PDF de escritorio completo
 - 📝 Mantengo **Noty**, una app de notas con diseño de cristal (+30 versiones)
+- 🧠 Lancé **EnglishMind**, un tutor de inglés con IA que ya está en producción
 - 🕵️ Creé **Agent File**, una app iOS con casos generados por **Claude AI**
 - 🌎 Mis apps hablan **español e inglés**
 
 </td>
-<td width="45%" valign="top">
+<td width="50%" valign="top">
 
-```ts
-const josue = {
-  rol: "Software Developer",
-  construye: [
-    "Apps de escritorio (Electron)",
-    "Dashboards en tiempo real",
-    "Apps iOS con IA",
-  ],
-  stack: [
-    "TypeScript", "Node.js",
-    "Next.js", "React",
-    "Express", "Prisma",
-  ],
-  idiomas: ["Español", "English"],
-  filosofia: "Rápido, bonito y offline ✨",
-};
-```
+<img src="assets/profile/about-code.svg" alt="const josue = { rol: Software Developer; construye: apps de escritorio con Electron, dashboards en tiempo real y apps con IA; stack: TypeScript, Node.js y React; idiomas: español e inglés; filosofía: rápido, bonito y offline }" width="100%" />
 
 </td>
 </tr>
 </table>
 
-<!-- ═══════════════════════════ NÚMEROS ═══════════════════════════ -->
-<div align="center">
+<!-- ═══════════════════════════ 02 · TECNOLOGÍAS ═══════════════════════════ -->
+<img src="assets/profile/h-tecnologias.svg" alt="02 · Tecnologías" width="100%" />
 
-<img src="https://img.shields.io/badge/apps_publicadas-5-7F5AF0?style=for-the-badge&labelColor=0D1117" alt="5 apps publicadas" />
-<img src="https://img.shields.io/badge/tests-140_passing-22C55E?style=for-the-badge&labelColor=0D1117" alt="140 tests" />
-<img src="https://img.shields.io/github/v/release/jpinchi/noty-releases?label=Noty&style=for-the-badge&color=E040FB&labelColor=0D1117" alt="Última versión de Noty" />
-<img src="https://img.shields.io/github/downloads/jpinchi/noty-releases/total?label=descargas&style=for-the-badge&color=FF8A00&labelColor=0D1117" alt="Descargas de Noty" />
+<img src="assets/profile/tech.svg" alt="Tecnologías: TypeScript, JavaScript, HTML5, CSS, React, Next.js, Tailwind CSS, Node.js, Express, Prisma, SQLite, Electron, Claude, Supabase, Vercel, PWA, iOS, Vitest, Git, GitHub, Windows y SNMP" width="100%" />
 
-</div>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="" />
-
-<!-- ═══════════════════════════ STACK ═══════════════════════════ -->
-## 🛠️ Tecnologías que uso
-
-<div align="center">
-
-### 💻 Lenguajes y frontend
-<img src="https://skillicons.dev/icons?i=ts,js,html,css,react,nextjs&theme=dark&perline=8" alt="Lenguajes y frontend" />
-
-### ⚙️ Backend, datos y escritorio
-<img src="https://skillicons.dev/icons?i=nodejs,express,prisma,sqlite,electron&theme=dark&perline=8" alt="Backend y escritorio" />
-
-### 🧰 Herramientas
-<img src="https://skillicons.dev/icons?i=git,github,vscode,powershell,windows&theme=dark&perline=8" alt="Herramientas" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Claude_AI-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude AI" />
-<img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="iOS" />
-<img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white" alt="WebSocket" />
-<img src="https://img.shields.io/badge/SNMP-0EA5E9?style=for-the-badge&logo=cisco&logoColor=white" alt="SNMP" />
-<img src="https://img.shields.io/badge/PDF.js_%2B_pdf--lib-EC1C24?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="PDF.js y pdf-lib" />
-
-</div>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="" />
-
-<!-- ═══════════════════════════ PROYECTOS ═══════════════════════════ -->
-## 🚀 Proyectos destacados
+<!-- ═══════════════════════════ 03 · PROYECTOS ═══════════════════════════ -->
+<img src="assets/profile/h-proyectos.svg" alt="03 · Proyectos destacados" width="100%" />
 
 <table>
 <tr>
@@ -216,40 +159,23 @@ Todos mis proyectos públicos están en mis repositorios.
 </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="" />
+<!-- ═══════════════════════════ 04 · ESTADÍSTICAS ═══════════════════════════ -->
+<img src="assets/profile/h-estadisticas.svg" alt="04 · Estadísticas" width="100%" />
 
-<!-- ═══════════════════════════ ESTADÍSTICAS ═══════════════════════════ -->
-## 📊 Estadísticas de GitHub
+<img src="https://raw.githubusercontent.com/jpinchi/jpinchi/output/stats.svg" alt="Mis estadísticas de GitHub: contribuciones del último año, rachas, actividad semanal, lenguajes y proyectos destacados" width="100%" />
 
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=jpinchi&show_icons=true&include_all_commits=true&count_private=true&hide=prs,issues,contribs&locale=es&custom_title=Mis%20estad%C3%ADsticas&bg_color=0D1117&title_color=E040FB&icon_color=7F5AF0&text_color=C9D1D9&ring_color=FF8A00&border_color=7F5AF0&border_radius=12" alt="Estadísticas de GitHub" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jpinchi&layout=compact&langs_count=6&locale=es&custom_title=Lenguajes%20m%C3%A1s%20usados&bg_color=0D1117&title_color=E040FB&text_color=C9D1D9&border_color=7F5AF0&border_radius=12" alt="Lenguajes más usados" />
-
-<img src="https://streak-stats.demolab.com?user=jpinchi&locale=es&background=0D1117&border=7F5AF0&ring=E040FB&fire=FF8A00&currStreakLabel=E040FB&sideLabels=7F5AF0&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E&stroke=7F5AF0&border_radius=12" alt="Racha de contribuciones" />
-
-</div>
-
-<!-- ═══════════════════════════ CONTRIBUCIONES ANIMADAS ═══════════════════════════ -->
-## 🎮 Mis contribuciones, en movimiento
+<!-- ═══════════════════════════ 05 · CONTRIBUCIONES ANIMADAS ═══════════════════════════ -->
+<img src="assets/profile/h-contribuciones.svg" alt="05 · Mis contribuciones, en movimiento" width="100%" />
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/output/profile-3d-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/output/profile-3d-light.svg" />
-  <img alt="Calendario 3D de mis contribuciones" src="https://raw.githubusercontent.com/jpinchi/jpinchi/output/profile-3d-light.svg" />
-</picture>
+<img src="https://raw.githubusercontent.com/jpinchi/jpinchi/output/profile-3d-dark.svg" alt="Calendario 3D de mis contribuciones" width="100%" />
 
 <sub><b>Calendario 3D</b> — cada bloque es un día y crece según cuánto programé</sub>
 
 <br/><br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/output/pacman-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/output/pacman-contribution-graph.svg" />
-  <img alt="Pac-Man comiéndose mis contribuciones" src="https://raw.githubusercontent.com/jpinchi/jpinchi/output/pacman-contribution-graph.svg" />
-</picture>
+<img src="https://raw.githubusercontent.com/jpinchi/jpinchi/output/pacman-contribution-graph-dark.svg" alt="Pac-Man comiéndose mis contribuciones" width="100%" />
 
 <sub><b>Pac-Man</b> — se come mis contribuciones mientras lo persiguen los fantasmas</sub>
 
@@ -261,29 +187,16 @@ Todos mis proyectos públicos están en mis repositorios.
 
 <br/><br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/output/bomberman-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/output/bomberman-contribution-graph.svg" />
-  <img alt="Bomberman haciendo explotar mis contribuciones" src="https://raw.githubusercontent.com/jpinchi/jpinchi/output/bomberman-contribution-graph.svg" />
-</picture>
+<img src="https://raw.githubusercontent.com/jpinchi/jpinchi/output/bomberman-contribution-graph-dark.svg" alt="Bomberman haciendo explotar mis contribuciones" width="100%" />
 
 <sub><b>Bomberman</b> — pone bombas que hacen explotar mis contribuciones mientras lo persigue un enemigo</sub>
 
 </div>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="" />
+<!-- ═══════════════════════════ 06 · HABLEMOS ═══════════════════════════ -->
+<img src="assets/profile/h-hablemos.svg" alt="06 · Hablemos" width="100%" />
 
-<!-- ═══════════════════════════ CONTACTO ═══════════════════════════ -->
-## 🤝 Hablemos
+<a href="mailto:josueldinhoo@gmail.com"><img src="assets/profile/contact.svg" alt="¿Tienes una idea, un proyecto o encontraste un bug? Escríbeme a josueldinhoo@gmail.com" width="100%" /></a>
 
-<div align="center">
-
-¿Tienes una idea, un proyecto o encontraste un bug en alguna de mis apps? **¡Escríbeme!**
-
-<a href="mailto:josueldinhoo@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
-<a href="https://github.com/jpinchi"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-
-</div>
-
-<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF8A00,50:E040FB,100:7F5AF0&height=120&section=footer" width="100%" alt="" />
+<!-- ═══════════════════════════ PIE ═══════════════════════════ -->
+<img src="assets/profile/footer.svg" alt="Gracias por pasar por aquí · Josue Mejias" width="100%" />

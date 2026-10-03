@@ -48,6 +48,12 @@ jobs:
           pip install gh-space-shooter==2.0.5
           gh-space-shooter ${{ github.repository_owner }} --output dist/space-shooter.webp
 
+      # Tarjeta de estadísticas propia (datos reales de la API de GitHub; sin dependencias)
+      - name: Estadísticas
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/stats.mjs ${{ github.repository_owner }} dist/stats.svg
+
       # Una sola publicación: esta acción REEMPLAZA toda la rama output, así que
       # todas las animaciones tienen que subirse juntas.
       - name: Publicar en la rama output

@@ -2,13 +2,19 @@
   {
     "type": "normal",
     "fileName": "profile-3d-dark.svg",
-    "backgroundColor": "#0d1117",
+    "backgroundColor": "#0d0b1e",
     "foregroundColor": "#e6edf3",
     "strongColor": "#E040FB",
     "weakColor": "#8b949e",
     "radarColor": "#E040FB",
     "growingAnimation": true,
-    "contribColors": ["#161b22", "#4c2f8f", "#7F5AF0", "#E040FB", "#FF8A00"],
+    "contribColors": [
+      "#161b22",
+      "#4c2f8f",
+      "#7F5AF0",
+      "#E040FB",
+      "#FF8A00"
+    ],
     "l10n": {
       "commit": "Commits",
       "repo": "Repositorios",
@@ -27,7 +33,13 @@
     "weakColor": "#656d76",
     "radarColor": "#E040FB",
     "growingAnimation": true,
-    "contribColors": ["#ebedf0", "#d8c4ff", "#a98bff", "#7F5AF0", "#E040FB"],
+    "contribColors": [
+      "#ebedf0",
+      "#d8c4ff",
+      "#a98bff",
+      "#7F5AF0",
+      "#E040FB"
+    ],
     "l10n": {
       "commit": "Commits",
       "repo": "Repositorios",

@@ -196,15 +196,39 @@ App **iOS** para prepararse para una carrera en el **FBI**: cada día genera una
 
 </div>
 
-<!-- ═══════════════════════════ SERPIENTE ═══════════════════════════ -->
-## 🐍 Mis contribuciones
+<!-- ═══════════════════════════ CONTRIBUCIONES ANIMADAS ═══════════════════════════ -->
+## 🎮 Mis contribuciones, en movimiento
 
 <div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/output/profile-3d-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/output/profile-3d-light.svg" />
+  <img alt="Calendario 3D de mis contribuciones" src="https://raw.githubusercontent.com/jpinchi/jpinchi/output/profile-3d-light.svg" />
+</picture>
+
+<sub><b>Calendario 3D</b> — cada bloque es un día y crece según cuánto programé</sub>
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/output/pacman-contribution-graph.svg" />
+  <img alt="Pac-Man comiéndose mis contribuciones" src="https://raw.githubusercontent.com/jpinchi/jpinchi/output/pacman-contribution-graph.svg" />
+</picture>
+
+<sub><b>Pac-Man</b> — se come mis contribuciones mientras lo persiguen los fantasmas</sub>
+
+<br/><br/>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jpinchi/jpinchi/output/github-snake.svg" />
   <img alt="Serpiente comiéndose mis contribuciones" src="https://raw.githubusercontent.com/jpinchi/jpinchi/output/github-snake.svg" />
 </picture>
+
+<sub><b>Serpiente</b> — recorre el año y se come cada día que programé</sub>
+
 </div>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="" />

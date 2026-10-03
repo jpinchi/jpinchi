@@ -1,0 +1,53 @@
+name: Animaciones de contribuciones
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # cada 12 horas
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      # Solo para leer .github/profile-3d.json (los colores del calendario 3D)
+      - uses: actions/checkout@v5
+
+      - name: Serpiente
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=#E040FB&color_dots=#ebedf0,#d8c4ff,#b388ff,#7F5AF0,#5b2bd6
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#FF8A00&color_dots=#161b22,#3b2a6b,#5b3fb0,#7F5AF0,#E040FB
+
+      - name: Pac-Man
+        uses: abozanona/pacman-contribution-graph@v5.3.2
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: pacman
+
+      - name: Calendario 3D
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: .github/profile-3d.json
+
+      - name: Juntar el calendario 3D con las demás
+        run: cp profile-3d-contrib/profile-3d-*.svg dist/
+
+      # Una sola publicación: esta acción REEMPLAZA toda la rama output, así que
+      # las tres animaciones tienen que subirse juntas.
+      - name: Publicar en la rama output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

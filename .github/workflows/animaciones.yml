@@ -18,14 +18,8 @@ jobs:
       # Solo para leer .github/profile-3d.json (los colores del calendario 3D)
       - uses: actions/checkout@v5
 
-      - name: Serpiente
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg?color_snake=#E040FB&color_dots=#ebedf0,#d8c4ff,#b388ff,#7F5AF0,#5b2bd6
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#FF8A00&color_dots=#161b22,#3b2a6b,#5b3fb0,#7F5AF0,#E040FB
-
+      # La serpiente va AL FINAL: corre en Docker como root y, si crea dist/
+      # primero, los demás pasos no pueden escribir ahí ("permission denied").
       - name: Pac-Man
         uses: abozanona/pacman-contribution-graph@v5.3.2
         with:
@@ -41,6 +35,14 @@ jobs:
 
       - name: Juntar el calendario 3D con las demás
         run: cp profile-3d-contrib/profile-3d-*.svg dist/
+
+      - name: Serpiente
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=#E040FB&color_dots=#ebedf0,#d8c4ff,#b388ff,#7F5AF0,#5b2bd6
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#FF8A00&color_dots=#161b22,#3b2a6b,#5b3fb0,#7F5AF0,#E040FB
 
       # Una sola publicación: esta acción REEMPLAZA toda la rama output, así que
       # las tres animaciones tienen que subirse juntas.

@@ -154,7 +154,7 @@ App de notas para Windows con **diseño de cristal** y 5 estilos. Notas rápidas
 
 <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron" />
 <img src="https://img.shields.io/badge/AES--256-22C55E?style=flat-square&logo=letsencrypt&logoColor=white" alt="AES-256" />
-<img src="https://img.shields.io/github/v/release/jpinchi/noty-releases?style=flat-square&color=E040FB&label=versión" alt="Versión" />
+<img src="https://img.shields.io/github/v/release/jpinchi/noty-releases?style=flat-square&color=E040FB&label=versi%C3%B3n" alt="Versión" />
 <img src="https://img.shields.io/github/downloads/jpinchi/noty-releases/total?style=flat-square&color=FF8A00&label=descargas" alt="Descargas" />
 
 <a href="https://github.com/jpinchi/noty-releases/releases/latest/download/Noty-Setup.exe"><img src="https://img.shields.io/badge/Descargar_Noty-FF8A00?style=for-the-badge&logo=windows&logoColor=white" alt="Descargar Noty" /></a>

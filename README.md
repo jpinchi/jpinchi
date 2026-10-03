@@ -164,7 +164,7 @@ App de notas para Windows con **diseño de cristal** y 5 estilos. Notas rápidas
 <td width="50%" valign="top">
 
 <a href="https://github.com/jpinchi/agentfile-support">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:0F2027,50:203A43,100:2C5364&height=470&text=Agent%20File&fontColor=ffffff&fontSize=96&fontAlignY=42&desc=Entrenamiento%20FBI%20con%20IA&descSize=34&descAlignY=62" alt="Agent File" width="100%" />
+  <img src="https://raw.githubusercontent.com/jpinchi/agentfile-support/main/assets/banner.svg" alt="Agent File" width="100%" />
 </a>
 
 ### 🕵️ Agent File

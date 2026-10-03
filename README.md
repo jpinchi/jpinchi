@@ -52,7 +52,7 @@ Me gusta que las cosas sean **rápidas, bonitas y privadas**, así que muchos de
   <img src="https://raw.githubusercontent.com/jpinchi/printer-device-manager/main/docs/screenshots/dashboard-dark.png" alt="Vista previa: panel de Printer Device Manager" width="100%" />
 </a>
 
-### 🖨️ Printer Device Manager
+### <img src="https://raw.githubusercontent.com/jpinchi/printer-device-manager/main/apps/desktop/build/icon.png" width="24" alt="" /> Printer Device Manager
 
 Descubre por **SNMP** todas las impresoras de tu red y muestra en un panel **en vivo** su estado, el tóner por color, los contadores y las alertas. Soporta varias sedes, reportes en PDF/Excel/CSV y tiene app de escritorio.
 

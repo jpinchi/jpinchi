@@ -36,7 +36,7 @@
     <text class="display" x="40" y="84" font-size="42" fill="#eeeaff" letter-spacing="-.5">¿Tienes una idea,</text>
     <text class="display" x="40" y="134" font-size="42" fill="#eeeaff" letter-spacing="-.5">un proyecto o</text>
     <text class="display" x="40" y="184" font-size="42" fill="#eeeaff" letter-spacing="-.5">encontraste un bug?</text>
-    <text class="txt" x="41" y="234" font-size="25" fill="#a59fc9">Escríbeme y te respondo.</text>
+    <text class="txt" x="41" y="234" font-size="25" fill="#a59fc9">Escríbeme y te respondo con gusto.</text>
     <text class="mono" x="41" y="296" font-size="30" fill="url(#gl)">josueldinhoo@gmail.com</text>
     <path class="under" pathLength="1" d="M40 312 H 440" stroke="url(#gu)" stroke-width="3.5" stroke-linecap="round"/>
     <path class="trail" d="M60 452 C 120 360, 230 500, 300 410 S 380 360, 452 410" fill="none" stroke="#a59fc9" stroke-opacity=".45" stroke-width="2.6" stroke-linecap="round"/>
@@ -50,7 +50,7 @@
     </g>
     <g class="badge"><circle cx="560" cy="370" r="18" fill="#22c55e" stroke="#0d0b1e" stroke-width="3"/>
       <path d="M552 370 l6 6 l11 -12" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></g>
-    <text class="txt" x="300" y="494" font-size="21" text-anchor="middle" fill="#7c76a8">Te respondo con gusto</text>
+    <text class="txt" x="300" y="494" font-size="21" text-anchor="middle" fill="#7c76a8">Respondo en español o inglés</text>
   </g>
   <rect x=".5" y=".5" width="599" height="519" rx="25.5" fill="none" stroke="url(#g)" stroke-opacity=".5"/>
 </svg>

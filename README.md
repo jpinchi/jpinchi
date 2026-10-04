@@ -164,7 +164,7 @@ Tutor de inglés con IA para hispanohablantes, ya **en producción**: ejercicios
 
 Todos mis proyectos públicos están en mis repositorios.
 
-<a href="https://github.com/jpinchi?tab=repositories"><img src="https://img.shields.io/badge/Proyectos-Ver_todos-E040FB?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Ver todos mis proyectos" /></a>
+<a href="https://github.com/jpinchi?tab=repositories"><img src="https://img.shields.io/badge/Ver_todos-E040FB?style=for-the-badge&logo=github&logoColor=white" alt="Ver todos mis proyectos" /></a>
 
 </td>
 </tr>

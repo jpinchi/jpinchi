@@ -122,9 +122,10 @@ App de notas para Windows con **diseño de cristal** y 5 estilos. Notas rápidas
 
 <a href="https://github.com/jpinchi/agentfile-support">
   <img src="https://raw.githubusercontent.com/jpinchi/agentfile-support/main/assets/banner.svg" alt="Agent File" width="100%" />
+  <img src="https://raw.githubusercontent.com/jpinchi/agentfile-support/main/assets/preview.png" alt="Vista previa: tres pantallas de Agent File en iPhone" width="100%" />
 </a>
 
-### 🕵️ Agent File
+### <img src="https://raw.githubusercontent.com/jpinchi/agentfile-support/main/assets/icon.png" width="24" alt="" /> Agent File
 
 App **iOS** para prepararse para una carrera en el **FBI**: cada día genera una **investigación nueva con IA**, e incluye casos federales reales, práctica para entrevistas y una bolsa de empleo federal en vivo.
 
